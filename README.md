@@ -17,15 +17,15 @@ Object localization involves identifying and locating objects within images. Thi
   ## Project Overview
   The project involves the following key steps:
   
-  Dataset Preparation: Custom dataset class is created to handle image-bounding box data. The dataset is structured for object localization tasks.
+  1. Dataset Preparation: Custom dataset class is created to handle image-bounding box data. The dataset is structured for object localization tasks.
   
-  Augmentation: The Albumentations library is utilized to apply augmentation techniques such as flips, rotations, and color adjustments. Augmentation plays a crucial role in increasing the diversity of the training data.
+  2. Augmentation: The Albumentations library is utilized to apply augmentation techniques such as flips, rotations, and color adjustments. Augmentation plays a crucial role in increasing the diversity of the training data.
   
-  Model Selection: A pre-trained convolutional neural network is loaded using the Timm library. This model serves as the base architecture for the object localization task.
+  3. Model Selection: A pre-trained convolutional neural network is loaded using the Timm library. This model serves as the base architecture for the object localization task.
   
-  Training Loop: Custom training and evaluation functions are developed to train the model and assess its performance.
+  4. Training Loop: Custom training and evaluation functions are developed to train the model and assess its performance.
   
-  Object Localization: The trained model is used to predict bounding boxes around objects in images.
+  5. Object Localization: The trained model is used to predict bounding boxes around objects in images.
 
 ## Dataset
 The dataset used in this project consists of images with associated bounding box annotations. The custom dataset class handles the loading of images, bounding boxes, and other necessary information.
