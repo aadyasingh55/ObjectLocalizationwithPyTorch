@@ -28,7 +28,7 @@ Object localization involves identifying and locating objects within images. Thi
   5. Object Localization: The trained model is used to predict bounding boxes around objects in images.
 
 ## Dataset
-The dataset used in this project consists of images with associated bounding box annotations. The custom dataset class handles the loading of images, bounding boxes, and other necessary information.
+The dataset used in this project consists of images with associated bounding box annotations. The custom dataset class handles the loading of images, bounding boxes, and other necessary information. Dataset : https://github.com/parth1620/object-localization-dataset.git
 
 ## Augmentation
 Augmentation is a key aspect of training a robust object localization model. The Albumentations library is used to apply various image transformations and augmentations. Augmented images are paired with their corresponding bounding boxes, ensuring consistency.
