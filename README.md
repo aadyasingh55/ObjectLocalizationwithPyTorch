@@ -33,9 +33,6 @@ The dataset used in this project consists of images with associated bounding box
 ## Augmentation
 Augmentation is a key aspect of training a robust object localization model. The Albumentations library is used to apply various image transformations and augmentations. Augmented images are paired with their corresponding bounding boxes, ensuring consistency.
 
-## Model
-A pre-trained convolutional neural network from the Timm library is employed for the object localization task. The model's architecture has been chosen for its effectiveness in handling image-related tasks.
-
 ## Training
 The training process involves feeding the augmented images to the model along with their associated bounding box coordinates. The model learns to predict the correct bounding box coordinates for objects in the images.
 
